@@ -11,7 +11,6 @@ public interface RestaurantService {
 
     public Restaurant createRestaurant(CreateRestaurantRequest req, User user) throws Exception;
 
-
     public Restaurant updateRestaurant(Long restaurantId, CreateRestaurantRequest updatedRestaurant) throws Exception;
 
     public void deleteRestaurant(Long restaurantId) throws Exception;
